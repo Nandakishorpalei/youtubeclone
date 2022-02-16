@@ -1,0 +1,17 @@
+#sidebar{
+    width:200px;
+    height: auto;
+    padding:3px;
+    position:absolute;
+    margin-top:40px;
+    margin-left:20px;
+    }
+    .lists{
+        display: flex;
+        color:white;
+    }
+    .lists img{
+        height:20px;
+        margin-right:32px;
+        margin-top:12px;
+    }

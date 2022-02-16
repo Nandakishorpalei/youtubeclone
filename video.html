@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    
+#container{
+    width:1249px;
+    min-height:700px;
+    margin-top:30px;
+    margin-left:17%;
+    background-color: #181818;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:1%;
+    padding:2%;
+    box-sizing: border-box;
+}
+#container > div{
+    width:261px;
+    margin-top:30px;
+}
+#container > div img{
+    height:166px;
+    width:261px;
+}
+#titleDiv{
+    height:100px;
+    color:white;
+}
+#showVideo{
+    position: absolute;
+    height:300px;
+    width:530px;
+    margin-top:200px;
+    margin-left:400px;
+    display: none;
+}
+#close{
+    height:34px;
+    width:34px;
+    border-radius: 50%;
+    z-index:30;
+    margin-left:637px;
+   padding-top: -388px;
+}
+/* iframe{
+    height:400px;
+    width:650px; 
+} */
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#main{
+    display: flex;
+    height:600px;
+    margin-top:30px;
+    margin-left: 30px;
+    
+}
+#videoDetails{
+    /* flex:684px; */
+    margin-top:80px;
+    width: 934px;
+    height:650px;
+    /* background-color: greenyellow; */
+}
+
+#recomendations{
+    margin-top:80px;
+    margin-left: 54px;
+    width:450px;
+    display: flex;
+    flex-direction: column;
+}
+#recomendations > div{
+height:200px;
+width:90%;
+margin-bottom: 16px;;
+}
+#recomendations iframe{
+    width:100%;
+}
+</style>
+
+</head>
+<body>
+<script src="youtubeNav.js"></script>
+
+<div id="main">
+    <div id="videoDetails"></div>
+
+    <div id="recomendations">
+
+    </div>
+</div>
+
+<script src="video.js"></script>
+</body>
+</html>
+
+
+
+
+
+
